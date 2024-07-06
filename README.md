@@ -1,7 +1,7 @@
 # Project Unbannable
 
 This project is about games.
-Thats it.
+That's it.
 
 [Website](https://example.com)
 
