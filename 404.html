@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Not Found</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #343a40;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>404 Not Found</h1>
+        <p>Sorry, the page you are looking for is non-existent/removed.</p>
+        <p>You will be redirected to the <a href="index.html">homepage</a> in <span id="countdown">3</span> seconds.</p>
+    </div>
+    <script>
+        let countdownNumber = 3;
+        const countdownElement = document.getElementById('countdown');
+
+        const countdown = setInterval(() => {
+            countdownNumber--;
+            countdownElement.textContent = countdownNumber;
+            if (countdownNumber <= 0) {
+                clearInterval(countdown);
+                window.location.href = 'index.html';
+            }
+        }, 1000);
+    </script>
+</body>
+</html>
