@@ -28,7 +28,7 @@ Also give me some of your links, your non-working/broken links, &amp; question(s
 
 [Question(s)](https://forms.gle/4BjESarurh43eR1UA)
 
-
+By the way, I am always open for any pull requests and if possible, I will merge it to the main repo so don't be afraid to add anything you think will make the website look better.
 
 
 
