@@ -2435,7 +2435,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #50c8fc;
+			background-color: #3CB371;
 			color: #fff !important;
 		}
 
@@ -2444,7 +2444,7 @@ input, select, textarea {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: #1eb8fb;
+			background-color: #3CB371;
 			color: #fff;
 		}
 
