@@ -38,7 +38,7 @@
         <h1>404</h1>
         <h3>Not Found</h2>
         <p>Sorry, the page you are looking for is non-existent/removed.</p>
-        <p>You will be redirected to the <a href="index.html">homepage</a> in <span id="countdown">5</span> seconds.</p>
+        <p>You will be redirected to the <a href="/index.html">homepage</a> in <span id="countdown">5</span> seconds.</p>
     </div>
     <script>
         let countdownNumber = 5;
@@ -49,7 +49,7 @@
             countdownElement.textContent = countdownNumber;
             if (countdownNumber <= 0) {
                 clearInterval(countdown);
-                window.location.href = 'index.html';
+                window.location.href = '/index.html';
             }
         }, 1000);
     </script>
