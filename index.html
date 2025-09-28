@@ -23,46 +23,25 @@
 					<nav id="nav">
 						<ul>
 							<li class="current"><a href="index.html">Home</a></li>
-							<li>
-								<a href="#">Games Part A</a>
-								<ul>
-									<li><a href="games/Art Class.html">Art Class</a></li>
-                                    <li><a href="games/BGames.html">BGames</a></li>
-                                    <li><a href="games/bonk.io.html">bonk.io</a></li>
-									<li><a href="games/Classwork.html">Classwork</a></li>
-									<li><a href="games/Cookieduck.html">Cookieduck</a></li>
-									<li><a href="games/Cool UBG.html">Cool UBG</a></li>
-									<li><a href="games/Cubes 2048.html">Cubes 2048</a></li>
-									<li><a href="games/Dino Game.html">Dino Game</a></li>
-									<li><a href="games/Extreme Math.html">Extreme Math</a></li>
-									<li><a href="games/Femoi.html">Femoi</a></li>
-								</ul>
+							    <li>
+								    <a href="#">Games</a>
+                                    <ul>
+                                        <li><a href="games/BGames.html">BGames</a></li>
+                                        <li><a href="games/bonk.html">bonk</a></li>
+                                        <li><a href="games/Classwork.html">Classwork</a></li>
+                                        <li><a href="games/Cookieduck.html">Cookieduck</a></li>
+                                        <li><a href="games/Cool UBG.html">Cool UBG</a></li>
+                                        <li><a href="games/Cubes 2048.html">Cubes 2048</a></li>
+                                        <li><a href="games/Dino Game.html">Dino Game</a></li>
+                                        <li><a href="games/Extreme Math.html">Extreme Math</a></li>
+                                        <li><a href="games/Math Games 66.html">Math Games 66</a></li>
+                                        <li><a href="games/SHS Games.html">SHS Games</a></li>
+                                        <li><a href="games/Slow Roads.html">Slow Roads</a></li> 
+                                        <li><a href="games/TBG95.html">TBG95</a></li>
+                                        <li><a href="games/Turtle Games.html">Turtle Games</a></li>
+                                    </ul>
+							    </li>
 							</li>
-							<li>
-								<a href="#">Games Part B</a>
-								<ul>
-                                    <li><a href="games/Fog.html">Fog</a></li>
-                                    <li><a href="games/Google Snake Game.html">Google Snake Game</a></li>
-									<li><a href="games/Idle Breakout.html">Idle Breakout</a></li>
-									<li><a href="games/Math Games 66.html">Math Games 66</a></li>
-                                    <li><a href="games/Not Doppler.html">Not Doppler</a></li>
-									<li><a href="games/SHS Games.html">SHS Games</a></li>
-									<li><a href="games/Slow Roads.html">Slow Roads</a></li>
-									<li><a href="games/Tamgames.html">Tamgames</a></li>
-									<li><a href="games/TBG95.html">TBG95</a></li>
-									<li><a href="games/Turtle Games.html">Turtle Games</a></li>
-								</ul>
-							</li>
-                            <li>
-								<a href="#">Games Part C</a>
-								<ul>
-                                    <li><a href="games/UBG100.html">UBG100</a></li>
-                                    <li><a href="games/UBGUSA.html">UBGUSA</a></li>
-									<li><a href="games/White Spider.html">White Spider</a></li>
-								</ul>
-							</li>
-							<li>
-                            </li>
 						</ul>
 					</nav>					
 			</div>
@@ -136,29 +115,22 @@
             <script src="assets/js/main.js"></script>
             <script>
                 document.getElementById('randomButton').addEventListener('click', function(event) {
-                    event.preventDefault(); // Prevent the default action of the link
+                    event.preventDefault();
 
                     var urls = [
-					'games/Art Class.html',
+					'games/BGames.html',
+					'games/bonk.html',
 					'games/Classwork.html',
 					'games/Cookieduck.html',
 					'games/Cool UBG.html',
 					'games/Cubes 2048.html',
-					'games/Dino Game.html',
+					'games/Dino Games.html',
 					'games/Extreme Math.html',
-					'games/Femoi.html',
-					'games/Google Snake Game.html',
-					'games/Idle Breakout.html',
 					'games/Math Games 66.html',
-					'games/Phantom Games.html',
 					'games/SHS Games.html',
 					'games/Slow Roads.html',
-					'games/Tamgames.html',
 					'games/TBG95.html',
 					'games/Turtle Games.html',
-					'games/UBG100.html',
-					'games/UBGUSA.html',
-					'games/White Spider.html',
                     ];
 
                     var randomIndex = Math.floor(Math.random() * urls.length);
