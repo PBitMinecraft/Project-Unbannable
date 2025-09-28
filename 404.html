@@ -44,12 +44,9 @@
         let countdownNumber = 5;
         const countdownElement = document.getElementById('countdown');
 
-        // build the base path automatically
-        // e.g. "/projectname/index.html"
         const basePath = window.location.pathname.split('/')[1];
         const homeUrl = `/${basePath}/index.html`;
 
-        // set the link dynamically too
         document.getElementById('home-link').href = homeUrl;
 
         const countdown = setInterval(() => {
